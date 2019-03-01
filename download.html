@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/static/img/pc/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+    <link rel="icon">
+    <title>OneOaaS Monitor|运维方案解决专家 Zabbix监控系统</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/common.css">
+    <link rel="stylesheet" href="/static/css/swiper-3.3.1.min.css">
+    <!--[IF LT IE 9]>
+    <script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "https://hm.baidu.com/hm.js?3fe52013e2cabc26b645b5863e293342";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();</script>
+    <![ENDIF]-->
+</head>
+
+<body>
+    <div class="oneoaas">
+        <div class="oneoaas-download-banner">
+            <nav class="navbar" role="navigation">
+                <a name="top" id="top"></a>
+                <div class="topbar">
+                    <div class="navbar-header">
+                        <a class="navbar-logo" href="/" data-track-label="banner" data-track-action="click" data-track-ca="Link" data-track>
+                            <img src="/static/img/pc/head-logo.png" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="navbar-icon"><img src="/static/img/mobile/m_icon-menu.png" alt="menu"></div>
+                    <div class="common-topbar-nav" id="header-navbar" aria-expanded="true">
+                        <ul class="common-topbar-nav-list">
+                            <li><a class="menu" href="/products.html">Monitor</a></li>
+                            <li><a class="menu" href="/community.html">客户案例</a></li>
+                            <li><a class="menu" href="/about.html">关于我们</a></li>
+                            <li class="nav-list-li-apply"><a class="nav-list-li-apply" href="/download.html">申请使用</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="download-banner-wraper">
+                <a name="top" id="top"></a>
+                <div class="download-banner-content">
+                    <div class="version-content">
+                        <ul class="version-content-model">
+                            <li class="version-content-item">
+                                <div class="version-content-item-title">
+                                    <h4 class="version-content-item-title-h4">社区版</h4>
+                                    <h5 class="version-content-item-dividing-line">········</h5>
+                                </div>
+                                <ul class="version-content-item-text">
+                                    <li class="item-true">大屏展示</li>
+                                    <li class="item-false">业务看板</li>
+                                    <li class="item-false">基础架构</li>
+                                    <li class="item-false">应用状态</li>
+                                    <li class="item-true">故障展示</li>
+                                    <li class="item-true">报表分析-报表</li>
+                                    <li class="item-false">报表分析-历史数据对比</li>
+                                    <li class="item-false">报表分析-业务数据对比</li>
+                                    <li class="item-true">树形图</li>
+                                    <li class="item-false">管理</li>
+                                    <li class="item-get-fashion">获取方式</li>
+                                    <li class="item-accredit-fashion">授权方式</li>
+                                </ul>
+                                <div class="version-content-item-download">
+                                    <button type="button" class="btn btn-download" data-toggle="modal" data-target="#myModalCE"><i class="download-btn-icon"></i>下载安装包</button>
+                                </div>
+                            </li>
+                            <li class="version-content-item">
+                                <div class="version-content-item-title">
+                                    <h4 class="version-content-item-title-h4">企业版</h4>
+                                    <h5 class="version-content-item-dividing-line">········</h5>
+                                </div>
+                                <ul class="version-content-item-text">
+                                    <li class="item-true">大屏展示</li>
+                                    <li class="item-true">业务看板</li>
+                                    <li class="item-true">基础架构</li>
+                                    <li class="item-true">应用状态</li>
+                                    <li class="item-true">故障展示</li>
+                                    <li class="item-true">报表分析-报表</li>
+                                    <li class="item-true">报表分析-历史数据对比</li>
+                                    <li class="item-true">报表分析-业务数据对比</li>
+                                    <li class="item-true">树形图</li>
+                                    <li class="item-true">管理</li>
+                                    <li class="item-enterprise">获取方式</li>
+                                    <li class="item-accredit">授权方式</li>
+                                </ul>
+                                <div class="version-content-item-download">
+                                    <button id="licenseBtn" type="button" data-toggle="modal" data-target="#enterpriseModal" class="btn btn-probation">联系商务</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="oneoaas-body download-body">
+                <div class="download-approach-content">
+                    <div class="approach-content-title">
+                        <div class="approach-first">只需3步</div>
+                        <div class="approach-first-text">立刻开始体验OneOaaS Mointor</div>
+                    </div>
+                    <div class="approach-content-item">
+                        <ul class="approach-item-modal">
+                            <li>
+                                <div class="item-approach-no">1</div>
+                                <div class="item-approach-info">
+                                    <h2>安装Monitor</h2>
+                                    <p>为了能让您更好的体验，我们建议安装到您的本地服务器，如Zabbix Web所在的服务器</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-approach-no">2</div>
+                                <div class="item-approach-info">
+                                    <h2>获取授权码</h2>
+                                    <p>安装后，根据启动的相关提示，申请授权码</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-approach-no">3</div>
+                                <div class="item-approach-info">
+                                    <h2>本地体验</h2>
+                                    <p>启动服务，打开浏览器即可体验</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModalCE" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">申请使用流程</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="download-code">
+                        <p>温馨提示: 安装可以是Zabbix WEB所在服务器，如果是一台全新服务器，需要能够读写Zabbix DB</p>
+                        <p>使用步骤:</p>
+                        <p>rpm -ivh oneoaas-monitor-ce-linux-amd64-2.0.0-1.x86_64.rpm</p>
+                        <p>vim /usr/share/oneoaas-monitor-ce/conf/app.conf</p>
+                        <p>/etc/init.d/oneoaas-monitor-ce start</p>
+                    </div>
+                    <div class="download-code download-code-2">
+                        <h4>一、配置说明：</h4>
+                        <p>shell# vim /usr/share/oneoaas-monitor-ce/conf/app.conf</p>
+                        <p>httpport = 4005&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#访问端口</p>
+                        <p>dbtype = "mysql"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#zabbix 数据库的类型，默认为MySQL</p>
+                        <p>dbuser = "zabbix"&nbsp;&nbsp;&nbsp;&nbsp;#zabbix 数据库的用户</p>
+                        <p>dbpass = "zabbix"&nbsp;&nbsp;&nbsp;&nbsp;#zabbix 数据库的密码</p>
+                        <p>dbhost = "127.0.0.1"&nbsp;&nbsp;&nbsp;#zabbix 数据库的IP地址</p>
+                        <p>dbport = 3306&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#zabbix 数据库的端口</p>
+                        <p>dbname = "zabbix"&nbsp;&nbsp;&nbsp;#zabbix 数据库的库名称</p>
+                        <p>#zabbix Web的地址，即Web API，Zabbix Web地址为http://10.10.10.38,则配置为ZbxUrl = "http://10.10.10.38"</p>
+                        <p>#带路径的配置，如果您的Zabbix WEB访问地址为http://10.10.10.38/zabbix,则配置为</p>
+                        <p>#ZbxUrl = "http://10.10.10.38/zabbix"</p>
+                        <p>shell# /etc/init.d/oneoaas-monitor-ce start</p>
+                        <h4>二、访问地址</h4>
+                        <p>http://您的IP地址:4005 用户: 您的Zabbix用户 密码: 您的Zabbix密码</p>
+                        <h4>三、手动测试API连接</h4>
+                        <!--p>shell# curl -X POST -H 'Content-Type: application/json' -d '{'jsonrpc': '2.0','method':'user.login','params':{'user':'Admin','password':'zabbix'},'id':0}' http://10.10.10.38/api_jsonrpc.php</p-->
+                        <p>shell# curl -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method":"user.login","params":{"user":"Admin","password":"zabbix"},"id":0}' http://10.10.10.38/api_jsonrpc.php</p>
+                        <p>输出如下结果，则说明http://10.10.10.38为正确的Zabbix API地址{'jsonrpc':'2.0','result':'b93e7c8387a5c55b64c29f6e7830622e','id':0}</p>
+                        <!--p>如使用过程出现其他问题，可加客服QQ <span style="color: #3580FF">3408827719</span></p-->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-download"><span class="glyphicon glyphicon-download-alt"></span>已停止下载</button></a>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel">申请使用流程</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="download-code">
+                        <p>温馨提示: 安装可以是Zabbix WEB所在服务器，如果是一台全新服务器，需要能够读写Zabbix DB，注意授权问题</p>
+                        <p>使用步骤:</p>
+                        <p>rpm -ivh oneoaas-monitor-se-linux-amd64-2.0.0-2.x86_64.rpm</p>
+                        <p>/etc/init.d/oneoaas-monitor-se start</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-download"><span class="glyphicon glyphicon-download-alt"></span>下载</button></a>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <div class="modal fade" id="enterpriseModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">联系方式</h4>
+                </div>
+                <div class="modal-body enterprise-tel">
+                    <p>邮箱：support#oneoaas.com(#替换为@)</p>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <div class="footer">
+        <a href="#top" class="back-top" target="_self"></a>
+        <div class="m-footer-top-bg"></div>
+        <div class="footer-content-item">
+            <ul class="content-item-text">
+                <!-- 微信 -->
+                <li class="item-text-modal" style="width: 22%">
+                    <div class="text-modal-head"><img src="/static/img/pc/footer-logo.png" alt="logo"></div>
+                    <div class="text-modal-code wechat">关注OneOaaS最新资讯</div>
+                    <div class="text-modal-code"><img class="wechat-img" src="/static/img/pc/footer-wechat.png" alt="wechat" id="wechat"></div>
+                    <div class="text-modal-qrcode"><img src="/static/img/pc/footer-wechat-code.png" id="qrcode" alt="qrcode"></div>
+                </li>
+                <!-- 产品 -->
+                <li class="item-text-modal" style="width: 22%">
+                    <div class="text-modal-head">产品</div>
+                    <div class="text-modal-code"><a href="/products.html">OneOaaS Monitor</a></div>
+                </li>
+                <!-- 开源产品 -->
+                <li class="item-text-modal" style="width: 24%">
+                    <div class="text-modal-head">开源产品</div>
+                    <div class="text-modal-code"><a href="https://github.com/oneoaas/graphtrees">graphtrees</a></div>
+                </li>
+                <!-- 联系方式 -->
+                <li class="item-text-modal" style="width: 31%">
+                    <a name="bottom" id="bottom"></a>
+                    <div class="text-modal-head">联系方式</div>
+                    <div class="text-modal-code">地址：上海市普陀区中江路879号天地软件园27栋308</div>
+                    <div class="text-modal-code">邮箱：support#oneoaas.com(#替换为@)</div>
+                </li>
+            </ul>
+            <div class="m-footer">
+                <div class="m-footer-logo"><img src="/static/img/pc/footer-logo.png" alt="logo"></div>
+                <div class="m-footer-modal">
+                    <h2 class="m-footer-item-title">产品</h2>
+                    <h5 class="m-footer-item-text"><a href="/products.html">OneOaaS Monitor</a></h5>
+                </div>
+                <div class="m-footer-modal">
+                    <h2 class="m-footer-item-title">开源产品</h2>
+                    <h5 class="m-footer-item-text"><a href="https://github.com/oneoaas/graphtrees">graphtrees</a></h5>
+                </div>
+                <div class="m-footer-modal">
+                    <h2 class="m-footer-item-title">联系方式</h2>
+                    <h5 class="m-footer-item-text">地址：上海市普陀区中江路879号天地软件园27栋308</h5>
+                    <h5 class="m-footer-item-text">邮箱：support#oneoaas.com(#替换为@)</h5>
+                </div>
+                <div class="m-footer-modal">
+                    <h5 class="m-footer-item-text"><img src="/static/img/pc/index_footer_wechat.png" alt=""> 长按以关注OneOaaS最新资讯</h5>
+                    <div class="m-footer-code"><img src="/static/img/pc/footer-wechat-code.png" alt=""> </div>
+                </div>
+            </div>
+        </div>
+        <div class="Copyright">Copyright&copy;2014 - 2049 上海皓西信息科技有限公司 All Rights Reserved. 沪ICP备16021328号-1</div>
+    </div>
+    <script src="/static/js/jquery-2.1.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js "></script>
+    <script src="/static/js/swiper-3.3.1.jquery.min.js"></script>
+    <script>
+        $('#wechat').hover(function() {
+            $('#qrcode').parent().show();
+            $('#wechat').attr('src', '/static/img/pc/index_footer_wechat.png');
+        }, function() {
+            $('#qrcode').parent().hide();
+            $('#wechat').attr('src', '/static/img/pc/footer-wechat.png');
+        })
+    </script>
+    <script type="text/javascript">
+        var lis = $("ul.common-topbar-nav-list li a.menu");
+        lis.each(function(idx) {
+            $this = $(this);
+            if ($this[0].href == String(window.location)) {
+                $this.addClass('active');
+            }
+        });
+        $(".back-top").hide();
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 80) {
+                $(".back-top").fadeIn();
+            } else {
+                $(".back-top").fadeOut();
+            }
+        });
+
+        $('.navbar-icon').bind('touchstart', function() {
+            $('.common-topbar-nav').toggle();
+        });
+    </script>
+</body>
+
+</html>
